@@ -1205,10 +1205,10 @@
     "@material/theme" "^0.41.0"
     "@material/typography" "^0.41.0"
 
-"@material/card@^0.41.0":
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/@material/card/-/card-0.41.0.tgz#79f0b529da8a533d4220017ee3c71dd14c272622"
-  integrity sha512-6/NIHuUZkftHoNS/l3JpROrpvI0TqYv4Xq9O1iRnxPmw2hwqvQ70LucE4+bJ+YzVomqYarV2KrtUUPrwSa90Lw==
+"@material/card@^0.41.1":
+  version "0.41.1"
+  resolved "https://registry.yarnpkg.com/@material/card/-/card-0.41.1.tgz#962d282eb0a49c4539cb90efc916df45994a6ceb"
+  integrity sha512-0L3BkkHK9qRXNh9MOK4XkCYHmZcqwLK5gACIWSLDOjEefmifBeahJeDJSYLVHS9KWl43glIGSrpNGjyXs19mCQ==
   dependencies:
     "@material/elevation" "^0.41.0"
     "@material/ripple" "^0.41.0"
@@ -1263,10 +1263,10 @@
   resolved "https://registry.yarnpkg.com/@material/dom/-/dom-0.41.0.tgz#6756865f97bad4c91ee75e69d769d7cdc25398ae"
   integrity sha512-wOJrMwjPddYXpQFZAIaCLWI3TO/6KU1lxESTBzunni8A4FHQVWhokml5Xt85GqZwmPFeIF2s+D0wfbWyrGBuKQ==
 
-"@material/drawer@^0.41.0":
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/@material/drawer/-/drawer-0.41.0.tgz#732bfb33ffed2739b536f83d52bc97564007a0e4"
-  integrity sha512-XMKrr9Ci7z69xwYsT1P/JH/BRccwB+HL9UiYzym8SAfZG/4XtP0b5qw+vYMrIZ/NeF0nOEaE8pNHq2XrUz0csA==
+"@material/drawer@^0.41.1":
+  version "0.41.1"
+  resolved "https://registry.yarnpkg.com/@material/drawer/-/drawer-0.41.1.tgz#abd860424c139a59e0dbd363ff2c16fcd435c55b"
+  integrity sha512-4t9ARGaIg8jpXIqD8hy4kcZ0hsF7y25gk2jNQAYG8ukQuDgbenjydlNFnC+I/eWBVIKqnVBlens+4ZUns+n3hg==
   dependencies:
     "@material/animation" "^0.41.0"
     "@material/base" "^0.41.0"
@@ -2570,11 +2570,12 @@ babel-loader@8.0.0-beta.3:
     mkdirp "^0.5.1"
     util.promisify "^1.0.0"
 
-babel-loader@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.2.tgz#2079b8ec1628284a929241da3d90f5b3de2a5ae5"
+babel-loader@^8.0.5:
+  version "8.0.5"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.5.tgz#225322d7509c2157655840bba52e46b6c2f2fe33"
+  integrity sha512-NTnHnVRd2JnRqPC0vW+iOQWU5pchDbYXsG2E6DMXEpMfUcQKclF9gmf3G3ZMhzG7IG9ji4coL0cm+FxeWxDpnw==
   dependencies:
-    find-cache-dir "^1.0.0"
+    find-cache-dir "^2.0.0"
     loader-utils "^1.0.2"
     mkdirp "^0.5.1"
     util.promisify "^1.0.0"
@@ -5452,6 +5453,15 @@ find-cache-dir@^1.0.0:
     make-dir "^1.0.0"
     pkg-dir "^2.0.0"
 
+find-cache-dir@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/find-cache-dir/-/find-cache-dir-2.0.0.tgz#4c1faed59f45184530fb9d7fa123a4d04a98472d"
+  integrity sha512-LDUY6V1Xs5eFskUVYtIwatojt6+9xC9Chnlk/jYOOvn3FAFfSaWddxahDGyNHh0b2dMXa6YW2m0tk8TdVaXHlA==
+  dependencies:
+    commondir "^1.0.1"
+    make-dir "^1.0.0"
+    pkg-dir "^3.0.0"
+
 find-up@^1.0.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/find-up/-/find-up-1.1.2.tgz#6b2e9822b1a2ce0a60ab64d610eccad53cb24d0f"
@@ -7742,21 +7752,21 @@ markdown-it@^8.4.1:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-material-components-web@^0.41.0:
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/material-components-web/-/material-components-web-0.41.0.tgz#6bdeb3324b2c62e69adce41650c4d3391290d1ac"
-  integrity sha512-Cw39oNXkFGsBhOKgWhJMvGpr5IR4l5pPO8lLKh86j5yeCfL9xkIdw9hiKqUXo0cmc5IVAyi1FwoJc+UYp4LFDw==
+material-components-web@^0.41.1:
+  version "0.41.1"
+  resolved "https://registry.yarnpkg.com/material-components-web/-/material-components-web-0.41.1.tgz#74897af7a158c051d2ebf71e7a19b445e240e7af"
+  integrity sha512-/LGHx4GlGeQz7oYWGNU6OJ3lkDSZs7J+2B9jdIkRmTdvAuHJwiZzeDWAywo5s9IOmg2OSmAOdUCcoAkoagYFKg==
   dependencies:
     "@material/animation" "^0.41.0"
     "@material/auto-init" "^0.41.0"
     "@material/base" "^0.41.0"
     "@material/button" "^0.41.0"
-    "@material/card" "^0.41.0"
+    "@material/card" "^0.41.1"
     "@material/checkbox" "^0.41.0"
     "@material/chips" "^0.41.0"
     "@material/dialog" "^0.41.0"
     "@material/dom" "^0.41.0"
-    "@material/drawer" "^0.41.0"
+    "@material/drawer" "^0.41.1"
     "@material/elevation" "^0.41.0"
     "@material/fab" "^0.41.0"
     "@material/floating-label" "^0.41.0"
@@ -8867,6 +8877,13 @@ pkg-dir@^2.0.0:
   resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-2.0.0.tgz#f6d5d1109e19d63edf428e0bd57e12777615334b"
   dependencies:
     find-up "^2.1.0"
+
+pkg-dir@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-3.0.0.tgz#2749020f239ed990881b1f71210d51eb6523bea3"
+  integrity sha512-/E57AYkoeQ25qkxMj5PBOVgF8Kiu/h7cYS30Z5+R7WaiCCBfLq58ZI/dSeaEKb9WVJV5n/03QwrN3IeWIFllvw==
+  dependencies:
+    find-up "^3.0.0"
 
 pluralize@^7.0.0:
   version "7.0.0"
